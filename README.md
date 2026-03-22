@@ -19,7 +19,7 @@
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
 
-*English: Java full-stack; daily drivers Python, Java, Vue; learning C# for Unity.*
+*Java full-stack; daily drivers Python, Java, Vue; learning C# for Unity.*
 
 </td><td valign="top" width="45%">
 <p align="right">
