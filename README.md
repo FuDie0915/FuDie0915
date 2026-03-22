@@ -34,12 +34,3 @@
 </td></tr></table>
 
 [![GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=TilapiaLog&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-### 部分公开仓库
-
-| 仓库 | 说明 |
-|------|------|
-| [LuaObfuscatorOnline-For-GHUB](https://github.com/TilapiaLog/LuaObfuscatorOnline-For-GHUB) | 针对 GHUB 脚本的在线不可逆混淆 |
-| [edge-tunnel-Fudie](https://github.com/TilapiaLog/edge-tunnel-Fudie) | 基于 CF Pages 的隧道相关优化 |
-| [HuaLChat-WechatBot-Based-WXAUTO](https://github.com/TilapiaLog/HuaLChat-WechatBot-Based-WXAUTO) | 基于 KouriChat 的微信 AI 机器人 |
-| [Apex-Dumper](https://github.com/TilapiaLog/Apex-Dumper) | C++（详见仓库 README） |
