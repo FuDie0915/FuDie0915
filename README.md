@@ -21,7 +21,13 @@
 ![Unity](https://img.shields.io/badge/Unity-000000?style=flat&logo=unity&logoColor=white)
 
 *Java full-stack; daily drivers Python, Java, Vue; learning C# for Unity.*
-
+<p align="center">
+  <br>
+  <img src="https://cdn.jsdelivr.net/gh/FuDie0915/image-host@main/sponsor.jpg" alt="赞赏码" width="200" style="border-radius: 10px;">
+  <br>
+  <em>如果我的项目帮助到了你，欢迎请我喝杯咖啡 ☕</em>
+  <br><br>
+</p>
 </td><td valign="top" width="45%">
 <p align="right">
 
