@@ -1,16 +1,17 @@
 
 # Hi there 👋
 
-> 你好！我是 **FD#0915**（[@FuDie0915](https://github.com/FuDie0915)），主攻 **Java 全栈**，常用 **Python、Java、Vue**；目前正在以 **Unity 游戏开发** 为方向学习 **C#**
-> 如果你在Commit记录中看到了我的真实姓名，请不要诧异，本人已经实名上网很多年。
+> 你好！我是 **FD#0915**（[@FuDie0915](https://github.com/FuDie0915)），主攻 **Java 全栈**，常用 **Python、Java、Vue、Rust**；目前正在以 **Unity 游戏开发** 为方向学习 **C#**
 
 <table style="border-color: transparent;" cellspacing="0"><tr><td valign="top" width="50%">
 
 ### 关于我
 
 - Java 全栈开发
-- 脚本与工具链常用 Python
-- 现阶段重点：C# 基础与 Unity 项目实践
+- Python 全栈开发
+- 游戏性能测试工具开发
+- 独立游戏开发
+- 现阶段重点：以制作独立游戏为目标
 
 ### 技术栈
 
