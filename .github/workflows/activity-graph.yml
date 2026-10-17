@@ -1,0 +1,46 @@
+name: Update activity graph
+
+on:
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_activity_graph.py
+      - .github/workflows/activity-graph.yml
+
+concurrency:
+  group: activity-graph
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+      - name: Generate the graph from GitHub contributions
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GRAPH_USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/update_activity_graph.py --username "$GRAPH_USERNAME" --output assets/activity-graph.svg
+      - name: Commit the graph when its data changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/activity-graph.svg
+          if git diff --cached --quiet; then
+            echo 'Activity graph is already current.'
+            exit 0
+          fi
+          git commit -m 'Update activity graph'
+          git push origin HEAD:main
