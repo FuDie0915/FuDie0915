@@ -1,7 +1,7 @@
 
 # Hi there 👋
 
-> 你好！我是 **FD#0915**（[@FuDie0915](https://github.com/FuDie0915)），主攻 **Java 全栈**，常用 **Python、Java、Vue、Rust**；目前正在以 **Unity 游戏开发** 为方向学习 **C#**
+> 你好！我是 **FD#0915**（[@FuDie0915](https://github.com/FuDie0915)），主攻 **Java 全栈**，常用 **Python、Java、Vue、Rust**；正在以 **Unity 游戏开发** 为方向学习 ；目前在 金山集团X西山居 实习 游戏测试开发 
 
 <table style="border-color: transparent;" cellspacing="0"><tr><td valign="top" width="50%">
 
